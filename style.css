@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Wendy+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to top left, #a82654, #fd8c69);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h1 + p{
+    margin-bottom: 2rem;
+}
+
+.signup-form{
+    color: #444;
+    background-color: #fff;
+    width: 500px;
+    font-family: "Lato";
+    height: 95vh;
+    padding: 3rem 2rem 2rem;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    backdrop-filter: blur(200px);
+    filter: blur();
+}
+
+button{
+    background-color: #546861;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-family: 'Lato';
+    font-weight: 700;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all .2s ease;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+button:active{
+    transform: translateY(5%);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    
+}
+
+.login{
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.footer{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.terms{
+    margin-top: 2rem;
+}
+
+.button-container{
+    margin-top: .7rem;
+}
+
+i{
+    position: absolute;
+    top:1.2rem;
+    left: 1rem;
+}
+
+.form-entry{
+    margin:.25rem 0;
+    position: relative;
+}
+
+button{
+    display: block;
+    width: 70%;
+    margin:auto;
+}
+
+label{
+    display:block;
+}
+
+input{
+    width:100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: "Lato";
+    font-size: 1rem;
+    padding-left: 2.5rem;
+    outline: none;
+}
+
+.message{
+    margin-top: 5px;
+    font-size: .8rem;
+}
+
+.error{
+    border: 2px solid #ce1212;
+}
+
+.success{
+    border: 2px solid #29bb89;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.invisible{
+    visibility: hidden;
+}
